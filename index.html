@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Prueba de Render</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; background: #f1f5f9; color: #172033; }
+    main { max-width: 720px; margin: 8vh auto; padding: 32px; }
+    .card { background: white; padding: 32px; border-radius: 18px; box-shadow: 0 12px 36px #0f172a12; }
+    .pill { display: inline-block; padding: 7px 12px; border-radius: 999px; background: #dcfce7; color: #166534; font-weight: bold; }
+    h1 { margin-top: 18px; }
+    button { border: 0; background: #2563eb; color: white; padding: 12px 18px; border-radius: 9px; cursor: pointer; font-size: 16px; }
+    #resultado { margin-top: 18px; font-weight: bold; }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="card">
+      <span class="pill">Sitio de prueba</span>
+      <h1>¡Funciona! Tu sitio está publicado 🎉</h1>
+      <p>Si puedes ver esta página en la URL de Render, la publicación de un sitio estático está funcionando correctamente.</p>
+      <p>Esta página de prueba no necesita base de datos ni backend.</p>
+      <button onclick="document.getElementById('resultado').textContent='JavaScript también está funcionando correctamente.'">Probar botón</button>
+      <p id="resultado" aria-live="polite"></p>
+    </section>
+  </main>
+</body>
+</html>

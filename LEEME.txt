@@ -1,0 +1,14 @@
+APP DE PRUEBA PARA RENDER
+
+1. Descomprime app_prueba_render.zip.
+2. Sube el archivo index.html a un repositorio NUEVO de GitHub.
+   Debe quedar en la raíz del repositorio, no dentro de otra carpeta.
+3. En Render, selecciona New > Static Site y conecta ese repositorio.
+4. Configuración:
+   - Build Command: dejar vacío
+   - Publish Directory: .
+5. Crea el sitio y espera a que el deploy termine.
+6. Abre la URL que Render te muestra. Debes ver “¡Funciona! Tu sitio está publicado”.
+7. Pulsa “Probar botón” para comprobar que JavaScript también funciona.
+
+Esta es solo una prueba de sitio estático. No prueba Java/Spring Boot ni una base de datos.
